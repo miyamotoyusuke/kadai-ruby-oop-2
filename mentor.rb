@@ -11,10 +11,7 @@ class Mentor
 end
 
 class RailsMentor < Mentor
-  attr_accessor :name
-  def initialize(name)
-  self.name=name
-  end
+  
   def job
   job="#{self.name}です。私はRubyとRailsでWebアプリケーションを作ります。"
   puts job
